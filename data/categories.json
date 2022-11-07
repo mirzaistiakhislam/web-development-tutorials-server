@@ -1,0 +1,26 @@
+[
+    {
+        "category_id": "01",
+        "category_name": "HTML"
+    },
+    {
+        "category_id": "02",
+        "category_name": "CSS"
+    },
+    {
+        "category_id": "03",
+        "category_name": "Bootstrap"
+    },
+    {
+        "category_id": "04",
+        "category_name": "Tailwind"
+    },
+    {
+        "category_id": "05",
+        "category_name": "Java Script"
+    },
+    {
+        "category_id": "01",
+        "category_name": "React JS"
+    }
+]
