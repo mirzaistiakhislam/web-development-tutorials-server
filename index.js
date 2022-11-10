@@ -14,18 +14,13 @@ app.get('/', (req, res) => {
 });
 
 app.get('/course-categories', (req, res) => {
-    res.send(categories)
+    res.send(categories);
 })
 
 app.get('/category/:id', (req, res) => {
     const id = req.params.id;
-    if (id === '07') {
-        res.send(courses);
-    }
-    else {
-        const categoryCourses = courses.filter(course => course.category_id === id);
-        res.send(categoryCourses);
-    }
+    const categoryCourses = courses.filter(course => course.category_id === id);
+    res.send(categoryCourses);
 
 })
 
